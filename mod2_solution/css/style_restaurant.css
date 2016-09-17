@@ -5,13 +5,11 @@
 		padding: 0px;
 	}
 
-	
-
 	h1{
-		margin-top: 20px;
+		margin-top: 40px;
+		margin-bottom: 40px;
 		text-align: center;  
 		font-family: "Times New Roman", Times, serif;
-
 	}
 	.left, .middle, .right {
 		background-color: #D3D3D3;
@@ -24,10 +22,7 @@
 		margin-right: 10px;
 		text-align: center;
 		font-family: "Times New Roman", Times, serif;
-
-
 	}
-
 	.content1 {
 		background-color: pink;
 		border-left: 1px solid black;
@@ -36,8 +31,6 @@
 		height: 30px;
 		width: 90px;
 		margin-top: 0px;
-
-
 	}
 	.content2 {
 		background-color: #b0e0e6;
@@ -47,8 +40,6 @@
 		height: 30px;
 		width: 90px;
 		margin-top: 0px;
-
-
 	}
 	.content3 {
 		background-color: yellow;
@@ -58,42 +49,35 @@
 		height: 30px;
 		width: 90px;
 		margin-top: 0px;
-
-
 	}
-
-
-
-h3{
-	text-align: center;
-}
-p{
-	clear: right;
-	padding: 5px;
-}
- 
-@media (min-width: 992px) {
-	.left {
+	h3{
+		text-align: center;
+	}
+	p{
+		clear: right;
+		padding: 5px;
+	}
+	@media (min-width: 992px) {
+		.left {
 		width: 30%;
 		}
-		 .middle {
+		.middle {
 		 	width: 30%;
-		 	} 
-		 	.right {
-		 		width: 30%;
-		 	}
-}
-@media (min-width: 768px) and (max-width: 991px) {
-	.left {
-		width: 44%;
+		} 
+		.right {
+		 	width: 30%;
+		}
 	}
-	.middle {
-		width: 44%;
+	@media (min-width: 768px) and (max-width: 991px) {
+		.left {
+			width: 44%;
+		}
+		.middle {
+			width: 44%;
+		}
+		.right {
+			width: 90%;
+		}
 	}
-	.right {
-		width: 90%;
-	}
-
-}
 
 
