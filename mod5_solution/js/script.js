@@ -15,11 +15,11 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
     var homeHtmlUrl = "snippets/home-snippet.html";
     var allCategoriesUrl = 
-        "http://davids-restaurant.herokuapp.com/categories.json";
+        "https://davids-restaurant.herokuapp.com/categories.json";
     var categoriesTitleHtml = "snippets/categories-title-snippet.html";
     var categoryHtml = "snippets/category-snippet.html";
     var menuItemsUrl = 
-        "http://davids-restaurant.herokuapp.com/menu_items.json?category=";
+        "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
     var menuItemsTitleHtml = "snippets/menu-items-title.html";
     var menuItemHtml = "snippets/menu-item.html";
 
@@ -32,7 +32,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
     // Show loading icon inside element identified by 'selector'.
     var showLoading = function (selector) {
         var html = "<div class='text-center'>";
-        html += "<img src='img/ajax-loader.gif'></div>";
+        html += "<img src='images/ajax-loader.gif'></div>";
         insertHtml(selector, html);
     };
 
